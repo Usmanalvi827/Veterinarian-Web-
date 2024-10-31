@@ -1,0 +1,165 @@
+@media (min-width:300px) and (max-width:576px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .navbar .navbar-brand img {
+    width: 150px;
+    }
+    .navbar ul.navbar-nav {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .navbar form {
+       justify-content: center;
+    }
+    .navbar-toggler-icon {
+        height: 22px;
+    }
+    .abt-img img , .main-sec-img img{
+        width: 100%;
+    }
+    .tittle-hed p {
+        width: 100%;
+        margin: 0px;
+    }
+    .team-hed p {
+        width: 100%;
+        margin: 0px;
+    }
+    .ft-sec .ft-txt {
+        text-align: center;
+    }
+  .form-set {
+    justify-content: center;
+  }  
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+    .navbar ul.navbar-nav {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .navbar form {
+       justify-content: center;
+    }
+    .tittle-hed p {
+     width: 80%;
+     margin: 0px 50px;        
+    }
+    .team-hed p {
+        width: 80%;
+        margin: 0px 50px; 
+    }
+    .ft-sec .ft-txt {
+        text-align: center;
+    }
+    .form-set {
+        justify-content: center;
+      }      
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .navbar ul.navbar-nav {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .navbar form {
+       justify-content: center;    
+    }
+    
+    .navbar input {
+        width: 100%;
+    }
+    .ban-img img {
+        width: 90%;
+    } 
+    .abt-img img {
+        width: 100%;
+    }
+    .main-sec-img img {
+        width: 100%;
+    }
+    .tittle-hed p {
+        width: 80%;
+        margin: 0px 70px;
+    }
+    .team-hed p {
+        width: 80%;
+        margin: 0px 70px;
+    }
+    .ft-icons a {
+        margin: 0px 5px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+    .main-sec-img img {
+        width: 100%;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .navbar ul.navbar-nav {
+        margin: 0px 35px;
+    }
+  
+}

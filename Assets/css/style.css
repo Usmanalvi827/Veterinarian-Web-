@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Custom Css Open */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+.main_btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 22px;
+    background-color: #00bec9;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid  #00bec9;
+    transition: .3s ease-in-out;
+}
+
+.main_btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.sec_btn {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: .3s ease-in-out;
+}
+
+.sec_btn:hover {
+    background-color: #fcc302;
+    border: 1px solid black;
+}
+
+.wrapper {
+    padding: 100px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+.card {
+    box-shadow: 0 0 0 /8px;
+}
+
+.card-txt {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Custom Css Close */
+
+/* Normal navbar styles */
+.navbar {
+    background-color: #daac00;
+    padding: 10px 0px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+}
+
+.navbar .form-control {
+    border-radius: 0px;
+    width: 180px;
+    background-color: #fcc302;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar form a {
+    background-color: #00bec9;
+    padding: 6px 12px;
+}
+
+.navbar ul.navbar-nav {
+    margin: 0px 125px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+.nav-hed .navbar-toggler {
+    border: none;
+    color: #000;
+    line-height: 2;
+    box-shadow: none;
+}
+
+
+/* BannerSec Open */
+
+.ban-sec {
+    background-color: #fcc302;
+}
+
+.ban-img img {
+    width: 60%;
+    height: auto;
+}
+
+/* BannerSec Close */
+
+/* AbtSec Open */
+
+.abt-txt p , .main-sec p {
+    color: #000;
+}
+
+.abt-txt a , .main-txt a {
+    background-color: #fcc302;
+    border: 1px solid #fcc302;
+}
+
+/* AbtSec Close */
+
+/* TittleSec Open */
+
+.tittle_sec , .price-sec{
+    background-color: #fcc302;
+}
+
+.tittle-hed p {
+    width: 40%;
+    margin: 0px 30%;
+}
+
+.tittle-card img ,.price-img img , .team-card img {
+    width: 100%;
+}
+
+/* TittleSec Close */
+
+/* PriceSec Open */
+
+.price-txt p{
+ font-size: 25px;
+ margin: 20px 0px;
+}
+
+.price-now a {
+    border-radius: 35%;
+}
+
+/* PriceSec Close */
+
+/* TeamSec Open */
+
+.team-hed p{
+    width: 40%;
+    margin: 0px 30%;
+    color: #000;
+}
+
+.team-txt h4 {
+    color: black;
+}
+
+.team-icons i {
+    font-size: 25px;
+    color: #fcc302;
+   margin: 0px 10px;
+}
+
+/* TeamSec Close */
+
+/* Card-Open */
+
+.card-txt h5 {
+font-size: 25px;
+}
+
+.card-txt p:nth-child(2) , 
+.card-txt a {
+    color: #00bec9;
+}
+
+.card-txt a:hover {
+    text-decoration: underline;
+    transition: .3s ease all;
+}
+
+/* Card-Close */
+
+/* Footer Sec Open*/
+
+.ft-sec {
+    background-color: #343434;
+}
+
+.ft-txt a {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.ft-sec form  a {
+    background-color: #00bec9;
+    padding: 6px 12px;
+    margin: 0px;
+  }
+
+  .ft-sec .form-control {
+    border-radius: 0px;
+    width: 180px;
+    background-color: #fcc302;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.ft-icons i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ft-icons a {
+    display: inline;
+    margin:0px 10px;
+    font-size: 20px;
+ }
+
+ .form-set {
+    justify-content: end;
+ }
+
+/* Footer Sec Close*/
+
+
+
+   
+  
+
+
